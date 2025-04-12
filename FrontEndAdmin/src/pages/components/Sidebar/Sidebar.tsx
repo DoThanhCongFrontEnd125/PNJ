@@ -9,8 +9,8 @@ const Sidebar = () => {
   //   return null;
   // }
   return (
-    <div className="w-52 bg-[#262582] text-white h-screen p-4 shadow-lg md:w-52 lg:w-52 border">
-      <h2 className="text-2xl font-bold mb-6">PNJ ADMIN</h2>
+    <div className="w-52 bg-[#262582] text-white h-[1500px] p-4 shadow-lg md:w-52 lg:w-52 border">
+      <h2 className="text-xl text-center font-bold mb-6">ADMIN PNJ</h2>
       <ul className="space-y-4">
         <li>
           <Link
@@ -41,7 +41,7 @@ const Sidebar = () => {
         </li>
         <li>
           <Link
-            to="/admin/customers"
+            to="/admin/users"
             className="py-2 px-4 rounded hover:bg-white hover:text-black transition duration-300 flex items-center"
           >
             <i className="fas fa-users mr-2"></i>

@@ -1,12 +1,12 @@
-import CategoriesTable from "./ManageCategories";
+import ManageCategories from "./ManageCategories";
 
-const ManageCategories = () => {
+const CategoriesTable = () => {
   return (
     <div>
       <h1 className="text-xl font-bold mb-4 text-[#262582]">Quản lý danh mục</h1>
-      <CategoriesTable/>
+      <ManageCategories/>
     </div>
   );
 };
 
-export default ManageCategories;
+export default CategoriesTable;

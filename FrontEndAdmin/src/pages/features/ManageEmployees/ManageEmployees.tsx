@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PagesBtn from "../../components/PagesBtn/PagesBtn";
 
-const EmployeesTable = () => {
+const ManageEmployees = () => {
   const [employees] = useState([
     { id: 1, name: "John Doe",phone:"0585865248",role:"Nhân viên",status:"Đang làm"},
     { id: 2, name: "Jane Smith",phone:"0123456789",role:"Shipper",status:"Nghỉ việc" }
@@ -145,4 +145,4 @@ const EmployeesTable = () => {
   );
 };
 
-export default EmployeesTable;
+export default ManageEmployees;
